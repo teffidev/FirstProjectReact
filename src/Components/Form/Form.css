@@ -1,0 +1,36 @@
+.containerForm{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleForm{
+    color: rgb(153, 0, 255);
+    margin-bottom: 20px;
+}
+
+.form{
+    width: 30%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    padding: 10px;
+}
+
+.input{
+    width: 100%;
+    height: 30px;
+}
+
+.select{
+    width: 100%;
+    height: 30px;
+    font-size: 0.9rem;
+}
+
